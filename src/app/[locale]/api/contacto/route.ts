@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const SUPPORT_EMAIL = "hello@zenvia.com.mx";
+const SUPPORT_EMAIL = "ayuda@datalux.mx";
 const BRAND_NAME = "Datalux";
 const BRAND_URL = "datalux.mx";
 const BRAND_LOGO = "https://datalux.mx/title.png";
