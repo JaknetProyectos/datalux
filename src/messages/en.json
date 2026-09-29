@@ -1,0 +1,379 @@
+{
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "summary": "1. Order Summary",
+      "shippingPayment": "2. Fulfillment & Payment"
+    },
+    "success": {
+      "title": "Payment Successfully Processed",
+      "description": "Your transaction has been approved. Our team is now preparing the assets for your marketing campaign launch.",
+      "paymentReference": "Reference Number:",
+      "paidAmount": "Amount Settled:",
+      "transactionStatus": "Payment Status:",
+      "approved": "APPROVED",
+      "backToCatalog": "Return to Solutions"
+    },
+    "empty": {
+      "title": "Your shopping cart is empty",
+      "description": "You haven't added any digital strategy packages or marketing solutions to your order yet.",
+      "goToStore": "Explore Services"
+    },
+    "order": {
+      "title": "Summary of Selection",
+      "clear": "Clear Cart"
+    },
+    "financial": {
+      "title": "Order Details",
+      "couponPlaceholder": "Promotional code",
+      "applyCoupon": "Apply",
+      "appliedCoupon": "Discount {code} (-{discount}%)",
+      "remove": "Remove",
+      "couponInvalid": "The entered promo code has expired or does not exist.",
+      "subtotal": "Subtotal:",
+      "discount": "Savings:",
+      "netTotal": "Total Due:",
+      "tax": "VAT {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Proceed to Checkout",
+      "processing": "Processing your payment via Keycop...",
+      "payAmount": "Pay {amount}",
+      "backToCart": "Modify cart / Change promo code"
+    },
+    "errors": {
+      "declined": "The transaction was declined by your card issuer.",
+      "connection": "Unable to establish connection with the payment gateway."
+    },
+    "metadata": {
+      "couponApplied": "Promotional code successfully added",
+      "standardSale": "Direct store purchase"
+    },
+    "form": {
+      "buyerTitle": "Customer & Billing Information",
+      "addressTitle": "Contact & Location Setup",
+      "paymentTitle": "Encrypted Payment Gateway",
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "email": "Email Address *",
+      "phone": "Mobile Number (10 digits) *",
+      "company": "Company / Organization (Optional)",
+      "streetAddress": "Street Address & Unit No. *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Apt 4",
+      "neighborhood": "Neighborhood & Landmarks (Optional)",
+      "neighborhoodPlaceholder": "Vertiz Narvarte",
+      "city": "City / Borough *",
+      "state": "State / Region *",
+      "statePlaceholder": "CDMX",
+      "postalCode": "Postal Code *",
+      "country": "Country",
+      "mexico": "Mexico (MX)",
+      "cardNumber": "Credit/Debit Card Number (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Cardholder's Name *",
+      "cardHolderPlaceholder": "Full name printed on card",
+      "expiryMonth": "Expiration Month (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Expiration Year (YY) *",
+      "expiryYearPlaceholder": "29",
+      "cvv": "Verification Code (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Transaction secured with advanced encryption technology"
+    },
+    "images": {
+      "etominAlt": "Keycop",
+      "securePaymentAlt": "Secure Payment Environment"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "badge": "Client Dashboard",
+      "title": "Add custom proposal"
+    },
+    "imageAlt": "Datalux brand identity",
+    "authorized": {
+      "title": "Payment Verification",
+      "description": "Enter the quote reference and agreed total provided by your consultant to complete payment."
+    },
+    "form": {
+      "badge": "Custom Quote Payment",
+      "title": "Estimate Information",
+      "quoteLabel": "Quote Reference",
+      "quotePlaceholder": "e.g., ELV-2026-001",
+      "amountLabel": "Agreed Amount",
+      "amountPlaceholder": "0.00",
+      "taxNote": "+ Applicable taxes will be itemized on the following screen."
+    },
+    "buttons": {
+      "adding": "Adding to your cart...",
+      "addToCart": "Add to Cart"
+    },
+    "errors": {
+      "quoteRequired": "Please enter a valid proposal reference number.",
+      "invalidAmount": "Please enter a valid numeric value."
+    }
+  },
+  "header": {
+    "logoAlt": "Official Datalux logo",
+    "titleAlt": "Datalux brand",
+    "cart": "Shopping Cart",
+    "changeLanguage": "Language Options",
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "solutions": "Solutions",
+      "processes": "Methodology"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": {
+        "part1": "Elevate your",
+        "highlight": "brand",
+        "part2": "through visual design and strategic execution"
+      },
+      "description": "We build brand identities and marketing initiatives that accelerate your business. Brand positioning, content management, marketing automation, and conversion-oriented campaigns.",
+      "imageAlt": "Digital Marketing Strategies"
+    },
+    "services": {
+      "branding": {
+        "category": "Branding",
+        "title": "Corporate Identity & Logo Design"
+      },
+      "content": {
+        "category": "Content",
+        "title": "Creative Design & Media Assets"
+      },
+      "motion": {
+        "category": "Motion",
+        "title": "Animation & Commercial Videos"
+      }
+    },
+    "strategy": {
+      "tag": "Digital strategy",
+      "title": {
+        "part1": "Distinguish your brand",
+        "highlight": "before the right audience"
+      },
+      "description": "We engineer digital solutions tailored for scaling, market penetration, and return on investment. Measurable performance with high business impact.",
+      "button": "Start Project",
+      "imageAlt": "Take your brand to new heights"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "At Datalux, we transform your objectives into tangible business growth through targeted campaigns designed to engage your market. Ready to expand your business? Send us a message, call us, or schedule a meeting.",
+    "info": {
+      "email": {
+        "label": "Email Address",
+        "value": "ayuda@datalux.mx"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "value": "5566512670"
+      },
+      "address": {
+        "label": "Physical Address",
+        "value": "Calz. Legaria 549, Col. 10 de abril, Del. Miguel Hidalgo, CDMX, C.P. 11250"
+      }
+    },
+    "form": {
+      "placeholders": {
+        "name": "Full name",
+        "email": "Email address",
+        "phone": "Contact number",
+        "message": "Overview of your project"
+      },
+      "successMessage": "Your message has been sent successfully.",
+      "errorFallback": "There was a problem sending your message. Please try again.",
+      "buttons": {
+        "send": "SUBMIT MESSAGE",
+        "sending": "SUBMITTING..."
+      }
+    }
+  },
+  "footer": {
+    "legal": {
+      "title": "Legal Notices",
+      "terms": "TERMS AND CONDITIONS",
+      "refunds": "RETURN & REFUND POLICY",
+      "privacy": "PRIVACY POLICY",
+      "paymentAlt": "Supported payment methods"
+    },
+    "contact": {
+      "title": "Contact & Locations",
+      "addressLabel": "Office Location",
+      "phoneLabel": "Phone Support Line",
+      "addressLine1": "Calz. Legaria 549,",
+      "addressLine2": "Col. 10 de abril,",
+      "addressLine3": "Del. Miguel Hidalgo,",
+      "addressLine4": "CDMX, C.P. 11250",
+      "emailLabel": "Support Email"
+    },
+    "brand": {
+      "tagline": "Data-backed growth strategies powered by creativity and innovation."
+    },
+    "copyright": "All rights reserved."
+  },
+  "about": {
+    "hero": {
+      "tag": "About Us",
+      "title": {
+        "part1": "Meet the team driving",
+        "part2": "your high-performing",
+        "highlight": "branding and marketing campaigns"
+      },
+      "description": "At Datalux, we recognize that every visual element conveys your enterprise values. Our strategists transform ideas into memorable advertising assets that captivate your target audience.",
+      "specializationLabel": "Core Areas of Expertise:"
+    },
+    "specializations": {
+      "branding": {
+        "title": "Brand Strategy & Corporate Identity",
+        "description": "Increase your brand value with consistent visual assets tailored to your business goals."
+      },
+      "illustration": {
+        "title": "Custom Illustration & Visual Iconography",
+        "description": "Communicate your brand message through custom-designed graphic artwork."
+      },
+      "interaction": {
+        "title": "Interactive Design & Motion Graphics",
+        "description": "Engage prospective clients with dynamic audiovisual experiences."
+      }
+    },
+    "history": {
+      "tag": "Our Background",
+      "title": {
+        "part1": "Our Journey and",
+        "highlight": "Core Philosophy"
+      },
+      "description": "At Datalux, we turn market insights into creative solutions that attract leads and drive sales growth. We merge commercial intelligence with strategic creativity to secure long-term business success."
+    },
+    "skills": {
+      "design": "Brand design & identity systems",
+      "illustrations": "Bespoke digital illustration",
+      "icons": "Custom iconography sets",
+      "motion": "Motion graphics & video animation"
+    },
+    "highlights": {
+      "experience": "Proven Experience",
+      "awards": "Industry Recognition",
+      "education": "Continuous Learning"
+    }
+  },
+  "plans": {
+    "services": {
+      "title": "Strategic Services",
+      "description": "Empower your company scale-up with end-to-end marketing and advertising solutions"
+    },
+    "customProject": {
+      "imageAlt": "Customized Project Solution",
+      "title": "Tailor-Made Strategy",
+      "description": "Every organization has unique requirements. We build customized business strategies aligned with your brand objectives, seamlessly connecting visual design with sales performance. Request a quote or process your payment.",
+      "buttons": {
+        "quote": "Request Quote",
+        "pay": "Pay Now"
+      }
+    },
+    "packages": {
+      "title": "Featured Packages",
+      "description": "Enhance your corporate presence. Our structured service plans are engineered to maximize market outreach."
+    },
+    "cards": {
+      "taxNote": "Pricing in MXN + VAT",
+      "recommended": "Recommended Choice",
+      "addToCart": "Add to Cart"
+    }
+  },
+  "processes": {
+    "hero": {
+      "tag": "Our Methodology",
+      "title": {
+        "part1": "From initial concept",
+        "part2": "through to final",
+        "highlight": "deployment"
+      },
+      "description": "At Datalux, we organize strategic concepts into high-converting promotional assets. Explore our step-by-step workflow: from initial alignment to full project delivery.",
+      "imageAlt": "Visual development workflow"
+    },
+    "phase1": {
+      "tag": "Phase 01",
+      "title": "Research and initial creative direction",
+      "description": "We begin by analyzing your objectives to chart the creative direction. We define the core concept that will anchor the overall campaign identity.",
+      "imageAlt": "Strategic conceptualization"
+    },
+    "phase2": {
+      "tag": "Phase 02",
+      "title": "Production and graphic refinement",
+      "description": "We translate foundational concepts into high-quality visual deliverables.",
+      "features": {
+        "feat1": "Meticulous focus on key elements",
+        "feat2": "Ideal harmony between creative art and commercial strategy",
+        "feat3": "Applying cutting-edge digital tools for progressive solutions."
+      },
+      "imageAlt": "Graphic optimization"
+    },
+    "phase3": {
+      "tag": "Phase 03",
+      "title": "Color psychology & visual identity",
+      "description": "We guide the selection of your brand's color spectrum. We establish the palette considering both brand values and audience psychological impact.",
+      "colors": {
+        "pinkvibrant": "Vibrant Pink",
+        "limeglow": "Lime Green",
+        "zincdark": "Dark Zinc",
+        "slatelight": "Light Gray"
+      }
+    },
+    "result": {
+      "tag": "Project Outcome",
+      "title": "Official Launch",
+      "images": {
+        "processAlt": "Production phase - development",
+        "appAlt": "Production phase - rollout",
+        "fullAlt": "Complete final output"
+      }
+    }
+  },
+  "ContactEmail": {
+    "missingFields": "Missing required information (name, email, message)",
+    "internalError": "Server error while processing your request",
+    "businessSubject": "[Lead] {asunto} - {nombre}",
+    "clientSubject": "We received your request - {brandName}",
+    "businessTitle": "New Lead Captured",
+    "businessSubtitle": "A new contact form submission has been received from the portal.",
+    "clientTitle": "Thank you for contacting us",
+    "clientSubtitle": "A strategy and marketing specialist will review your inquiry shortly.",
+    "applicantDetails": "Lead Details",
+    "messageSummary": "Inquiry Summary",
+    "name": "Name",
+    "email": "Email Address",
+    "sentMessage": "Message submitted",
+    "automatedDisclaimer": "This message confirms receipt of your inquiry. Our team will review the submitted details and get back to you shortly.",
+    "allRightsReserved": "All rights reserved.",
+    "footerText": "Digital Strategy & Efficient Marketing."
+  },
+  "PurchaseReceipt": {
+    "missingFields": "Required information is missing to complete this order",
+    "internalError": "Server error while completing the order",
+    "clientTitle": "Order Confirmation",
+    "clientSubtitle": "Thank you for partnering with us. Your order #{orderId} has been successfully processed.",
+    "clientSubject": "Order Confirmation #{orderId} - {brandName}",
+    "businessTitle": "New Sale Registered!",
+    "businessSubtitle": "A payment of ${amount} MXN was credited.",
+    "businessSubject": "[Sale] Order #{orderId} - ${amount} MXN",
+    "orderIdLabel": "Order Reference",
+    "paymentDateLabel": "Date of Purchase",
+    "buyerInfo": "Customer Details",
+    "billingDetails": "Billing Information",
+    "customerLabel": "Customer",
+    "addressLabel": "Address",
+    "companyLabel": "Company",
+    "operationDetails": "Transaction Summary",
+    "productSummary": "Services Breakdown",
+    "totalPaid": "Total Amount Settled",
+    "clientDisclaimer": "This charge will appear on your billing statement under marketing services. If you require an official tax invoice, please reply to this email with your tax details within 72 hours.",
+    "allRightsReserved": "All rights reserved.",
+    "footerText": "Digital Strategy & Efficient Marketing."
+  }
+}

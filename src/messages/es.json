@@ -1,0 +1,379 @@
+{
+  "cartPage": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "summary": "1. Validación",
+      "shippingPayment": "2. Envío y Pago"
+    },
+    "success": {
+      "title": "Pago Procesado Exitosamente",
+      "description": "Su transacción fue aprobada. El equipo se encuentra alistando los materiales de su plan publicitario para iniciar la ejecución.",
+      "paymentReference": "Número de Operación:",
+      "paidAmount": "Suma Pagada:",
+      "transactionStatus": "Estado de la Transacción:",
+      "approved": "Aprobada",
+      "backToCatalog": "Volver a Soluciones"
+    },
+    "empty": {
+      "title": "Su carrito está vacío",
+      "description": "Todavía no ha agregado paquetes ni servicios de estrategia digital a su orden.",
+      "goToStore": "Explorar Servicios"
+    },
+    "order": {
+      "title": "Resumen de su compra",
+      "clear": "Vaciar Todo"
+    },
+    "financial": {
+      "title": "Detalles del Pedido",
+      "couponPlaceholder": "Código promocional",
+      "applyCoupon": "Canjear",
+      "appliedCoupon": "Descuento {code} (-{discount}%)",
+      "remove": "Eliminar",
+      "couponInvalid": "El código ingresado venció o es incorrecto.",
+      "subtotal": "Subtotal:",
+      "discount": "Descuento:",
+      "netTotal": "Total Final:",
+      "tax": "IVA {tax}"
+    },
+    "actions": {
+      "proceedToPayment": "Avanzar al Pago",
+      "processing": "Procesando la transacción mediante Keycop...",
+      "payAmount": "Abonar {amount}",
+      "backToCart": "Modificar carrito / Alterar código"
+    },
+    "errors": {
+      "declined": "La transacción fue rechazada por la institución bancaria.",
+      "connection": "No fue posible comunicarse con la pasarela de pagos."
+    },
+    "metadata": {
+      "couponApplied": "Código aplicado exitosamente",
+      "standardSale": "Adquisición directa en plataforma"
+    },
+    "form": {
+      "buyerTitle": "Datos del Comprador y Facturación",
+      "addressTitle": "Información de Contacto y Ajustes",
+      "paymentTitle": "Plataforma Segura de Pago",
+      "firstName": "Nombre *",
+      "lastName": "Apellidos *",
+      "email": "Dirección de Correo *",
+      "phone": "Teléfono Celular (10 dígitos) *",
+      "company": "Compañía / Denominación Social (Opcional)",
+      "streetAddress": "Dirección, Número Ext. e Int. *",
+      "streetAddressPlaceholder": "Av. Universidad 450, Int 4",
+      "neighborhood": "Colonia o Puntos de Referencia (Opcional)",
+      "neighborhoodPlaceholder": "Col. Vértiz Narvarte",
+      "city": "Alcaldía o Municipio *",
+      "state": "Estado o Provincia *",
+      "statePlaceholder": "CDMX",
+      "postalCode": "C.P. *",
+      "country": "País",
+      "mexico": "México (MX)",
+      "cardNumber": "Número de Tarjeta (Visa / Mastercard) *",
+      "cardNumberPlaceholder": "4152 0000 0000 0000",
+      "cardHolderName": "Nombre en la Tarjeta *",
+      "cardHolderPlaceholder": "Nombre exacto en la tarjeta",
+      "expiryMonth": "Mes de Expiración (MM) *",
+      "expiryMonthPlaceholder": "05",
+      "expiryYear": "Año de Expiración (AA) *",
+      "expiryYearPlaceholder": "29",
+      "cvv": "Código de Seguridad (CVV) *",
+      "cvvPlaceholder": "•••"
+    },
+    "security": {
+      "note": "Operación protegida mediante cifrado de alta seguridad"
+    },
+    "images": {
+      "etominAlt": "Keycop",
+      "securePaymentAlt": "Entorno de Pago Protegido"
+    }
+  },
+  "customPlan": {
+    "hero": {
+      "badge": "Módulo de Clientes",
+      "title": "Añadir propuesta personalizada"
+    },
+    "imageAlt": "Identidad corporativa Datalux",
+    "authorized": {
+      "title": "Verificación del cobro",
+      "description": "Capture la clave de su propuesta comercial y el importe acordado con su asesor para realizar el pago."
+    },
+    "form": {
+      "badge": "Cobro personalizado",
+      "title": "Información de la cotización",
+      "quoteLabel": "Número de propuesta",
+      "quotePlaceholder": "Ej. ELV-2026-001",
+      "amountLabel": "Importe acordado",
+      "amountPlaceholder": "0.00",
+      "taxNote": "+ Los impuestos correspondientes se desglosarán en la siguiente fase."
+    },
+    "buttons": {
+      "adding": "Agregando al carrito...",
+      "addToCart": "Añadir al carrito"
+    },
+    "errors": {
+      "quoteRequired": "Por favor ingrese una clave de cotización válida.",
+      "invalidAmount": "Proporcione un valor numérico correcto."
+    }
+  },
+  "header": {
+    "logoAlt": "Logotipo institucional de Datalux",
+    "titleAlt": "Datalux",
+    "cart": "Carrito",
+    "changeLanguage": "Idioma",
+    "nav": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "solutions": "Soluciones",
+      "processes": "Metodología"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": {
+        "part1": "Potencia tu",
+        "highlight": "marca",
+        "part2": "mediante diseño visual y visión comercial"
+      },
+      "description": "Desarrollamos identidades corporativas y campañas de marketing para acelerar tu negocio. Posicionamiento, gestión de contenidos, automatización e iniciativas publicitarias centradas en la conversión.",
+      "imageAlt": "Estrategias de Marketing Digital"
+    },
+    "services": {
+      "branding": {
+        "category": "Branding",
+        "title": "Identidad Visual y Logotipos"
+      },
+      "content": {
+        "category": "Contenido",
+        "title": "Diseño Gráfico y Contenidos"
+      },
+      "motion": {
+        "category": "Motion",
+        "title": "Animación Digital y Comerciales"
+      }
+    },
+    "strategy": {
+      "tag": "Estrategia digital",
+      "title": {
+        "part1": "Destaca la presencia de tu marca",
+        "highlight": "frente al público adecuado"
+      },
+      "description": "Generamos soluciones digitales orientadas al crecimiento, la presencia de mercado y el retorno de inversión. Resultados cuantificables de alto valor.",
+      "button": "Iniciar proyecto",
+      "imageAlt": "Eleva la imagen de tu marca"
+    }
+  },
+  "contact": {
+    "title": "Escríbenos",
+    "description": "En Datalux convertimos tus objetivos en soluciones comerciales efectivas mediante campañas creadas para conectar con tu público objetivo. ¿Preparado para impulsar tu negocio? Envíanos un mensaje, llámanos o programa una cita.",
+    "info": {
+      "email": {
+        "label": "Correo",
+        "value": "ayuda@datalux.mx"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "5566512670"
+      },
+      "address": {
+        "label": "Ubicación",
+        "value": "Calz. Legaria 549, Col. 10 de abril, Del. Miguel Hidalgo, CDMX, C.P. 11250"
+      }
+    },
+    "form": {
+      "placeholders": {
+        "name": "Nombre completo",
+        "email": "Correo electrónico",
+        "phone": "Teléfono de contacto",
+        "message": "Detalles de tu proyecto"
+      },
+      "successMessage": "Mensaje enviado con éxito.",
+      "errorFallback": "Ocurrió un problema al enviar el mensaje. Inténtalo nuevamente.",
+      "buttons": {
+        "send": "ENVIAR MENSAJE",
+        "sending": "ENVIANDO..."
+      }
+    }
+  },
+  "footer": {
+    "legal": {
+      "title": "Avisos Legales",
+      "terms": "TÉRMINOS Y CONDICIONES",
+      "refunds": "POLÍTICA DE DEVOLUCIONES Y REEMBOLSO",
+      "privacy": "POLÍTICA DE PRIVACIDAD",
+      "paymentAlt": "Medios de pago admitidos"
+    },
+    "contact": {
+      "title": "Contacto y Oficinas",
+      "phoneLabel": "Atención Telefónica",
+      "addressLabel": "Ubicación Física",
+      "addressLine1": "Calz. Legaria 549,",
+      "addressLine2": "Col. 10 de abril,",
+      "addressLine3": "Del. Miguel Hidalgo,",
+      "addressLine4": "CDMX, C.P. 11250",
+      "emailLabel": "Correo de Contacto"
+    },
+    "brand": {
+      "tagline": "Estrategias orientadas a la expansión, creatividad e innovación."
+    },
+    "copyright": "Todos los derechos reservados."
+  },
+  "about": {
+    "hero": {
+      "tag": "Nosotros",
+      "title": {
+        "part1": "Conoce al equipo detrás de",
+        "part2": "tus proyectos de",
+        "highlight": "branding y marketing"
+      },
+      "description": "En Datalux sabemos que cada recurso gráfico refleja la propuesta de tu negocio. Nuestros consultores transforman conceptos en piezas publicitarias efectivas que captan el interés de tus clientes.",
+      "specializationLabel": "Especialidades principales:"
+    },
+    "specializations": {
+      "branding": {
+        "title": "Branding e Imagen Corporativa",
+        "description": "Incrementa el valor de tu negocio mediante diseños coherentes con tus metas estratégicas."
+      },
+      "illustration": {
+        "title": "Ilustración e Iconografía Visual",
+        "description": "Transmite la propuesta de valor de tu marca con elementos totalmente personalizados."
+      },
+      "interaction": {
+        "title": "Diseño Interactivo y Animación",
+        "description": "Atrae la atención de tus clientes con contenidos audiovisuales dinámicos."
+      }
+    },
+    "history": {
+      "tag": "Nuestra Historia",
+      "title": {
+        "part1": "Nuestra Trayectoria y",
+        "highlight": "Filosofía"
+      },
+      "description": "En Datalux convertimos información del mercado en propuestas innovadoras que captan clientes e incrementan las ventas. Integramos inteligencia comercial con creatividad enfocada para asegurar el éxito de tu marca."
+    },
+    "skills": {
+      "design": "Diseño de marca e identidad",
+      "illustrations": "Ilustración digital personalizada",
+      "icons": "Diseño de paquetes de íconos",
+      "motion": "Motion graphics y animación"
+    },
+    "highlights": {
+      "experience": "Trayectoria Comprobada",
+      "awards": "Premios del Sector",
+      "education": "Capacitación Continua"
+    }
+  },
+  "plans": {
+    "services": {
+      "title": "Servicios Estratégicos",
+      "description": "Impulsamos el crecimiento de tu marca mediante servicios publicitarios integrales"
+    },
+    "customProject": {
+      "imageAlt": "Proyecto Personalizado",
+      "title": "Estrategia a la Medida",
+      "description": "Cada empresa presenta retos particulares. Diseñamos modelos de negocio alineados con las metas de tu marca, articulando la imagen corporativa con el rendimiento comercial. Pide un presupuesto o efectúa tu pago.",
+      "buttons": {
+        "quote": "Pedir Cotización",
+        "pay": "Pagar Ahora"
+      }
+    },
+    "packages": {
+      "title": "Paquetes Especiales",
+      "description": "Fortalece la presencia de tu marca. Nuestras opciones de servicio fueron desarrolladas para potenciar la visibilidad de tu empresa."
+    },
+    "cards": {
+      "taxNote": "Valores en MXN + IVA",
+      "recommended": "Opción Sugerida",
+      "addToCart": "Añadir al Carrito"
+    }
+  },
+  "processes": {
+    "hero": {
+      "tag": "Nuestra Metodología",
+      "title": {
+        "part1": "Desde el concepto inicial",
+        "part2": "hasta el",
+        "highlight": "lanzamiento"
+      },
+      "description": "En Datalux organizamos ideas estratégicas para convertirlas en piezas publicitarias de gran desempeño. Conoce la metodología paso a paso: desde el análisis inicial hasta la entrega del proyecto.",
+      "imageAlt": "Proceso de desarrollo gráfico"
+    },
+    "phase1": {
+      "tag": "Fase 01",
+      "title": "Análisis e ideas iniciales",
+      "description": "Comenzamos evaluando tus requerimientos para definir la directriz creativa. Establecemos el concepto base sobre el cual estructuraremos la identidad de la campaña.",
+      "imageAlt": "Conceptualización estratégica"
+    },
+    "phase2": {
+      "tag": "Fase 02",
+      "title": "Desarrollo y refinamiento visual",
+      "description": "Transformamos la idea inicial en soluciones gráficas de alta calidad.",
+      "features": {
+        "feat1": "Atención minuciosa en aspectos clave",
+        "feat2": "Equilibrio ideal entre creatividad y visión comercial",
+        "feat3": "Uso de tecnología de punta para soluciones innovadoras."
+      },
+      "imageAlt": "Perfeccionamiento gráfico"
+    },
+    "phase3": {
+      "tag": "Fase 03",
+      "title": "Psicología del color e identidad de marca",
+      "description": "Avanzamos con la elección de la gama de color. Definimos la combinación cromática considerando la identidad corporativa y el impacto psicológico en los usuarios.",
+      "colors": {
+        "pinkvibrant": "Rosa Intenso",
+        "limeglow": "Verde Lima",
+        "zincdark": "Zinc Oscuro",
+        "slatelight": "Gris Claro"
+      }
+    },
+    "result": {
+      "tag": "Resultado Obtenido",
+      "title": "Lanzamiento final",
+      "images": {
+        "processAlt": "Etapa de producción - creación",
+        "appAlt": "Etapa de producción - despliegue",
+        "fullAlt": "Resultado final integral"
+      }
+    }
+  },
+  "ContactEmail": {
+    "missingFields": "Faltan campos requeridos (nombre, email, mensaje)",
+    "internalError": "Error de servidor al procesar la solicitud",
+    "businessSubject": "[Prospecto] {asunto} - {nombre}",
+    "clientSubject": "Recibimos tu solicitud - {brandName}",
+    "businessTitle": "Nuevo Prospecto Registrado",
+    "businessSubtitle": "Se ha recibido un nuevo registro desde el portal.",
+    "clientTitle": "Gracias por escribirnos",
+    "clientSubtitle": "Un especialista en estrategia y comunicación analizará tu solicitud lo antes posible.",
+    "applicantDetails": "Datos del Prospecto",
+    "messageSummary": "Resumen de la Consulta",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "sentMessage": "Mensaje enviado",
+    "automatedDisclaimer": "Este correo confirma la recepción de tu consulta. Nuestro equipo revisará la información proporcionada para ponerse en contacto contigo a la brevedad.",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "footerText": "Estrategia Digital y Marketing Eficiente."
+  },
+  "PurchaseReceipt": {
+    "missingFields": "Faltan datos requeridos para procesar la orden",
+    "internalError": "Error de servidor al procesar la transacción",
+    "clientTitle": "Confirmación de Compra",
+    "clientSubtitle": "Gracias por confiar en nosotros. Tu orden #{orderId} se ha procesado con éxito.",
+    "clientSubject": "Confirmación de tu pedido #{orderId} - {brandName}",
+    "businessTitle": "¡Transacción Exitosa!",
+    "businessSubtitle": "Se acreditó un cobro por ${amount} MXN.",
+    "businessSubject": "[Venta] Orden #{orderId} - ${amount} MXN",
+    "orderIdLabel": "Número de Pedido",
+    "paymentDateLabel": "Fecha de Transacción",
+    "buyerInfo": "Información del Cliente",
+    "billingDetails": "Información de Facturación",
+    "customerLabel": "Cliente",
+    "addressLabel": "Dirección",
+    "companyLabel": "Empresa",
+    "operationDetails": "Resumen de la Transacción",
+    "productSummary": "Desglose de Servicios",
+    "totalPaid": "Monto Total Pagado",
+    "clientDisclaimer": "El cargo figurará en tu estado de cuenta bajo el concepto de servicios de marketing. En caso de requerir comprobante fiscal, responde a este correo proporcionando tus datos de facturación en un lapso de 72 horas.",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "footerText": "Estrategia Digital y Marketing Eficiente."
+  }
+}

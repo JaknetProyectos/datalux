@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  font-size: large;
+}
+
+
+
+@layer base {
+
+    /* Aplicar fuentes a todos los headings */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        /* font-family: var(--font-heading), cursive, "Comic Sans MS", sans-serif; */
+        /* Opcional: añadir propiedades handwriting */
+        letter-spacing: 0.02em;
+        font-weight: 600;
+    }
+
+    /* También puedes aplicarlo a elementos específicos */
+    p,
+    span,
+    div {
+        font-family: var(--font-body), sans-serif;
+    }
+
+    /* Aplicar a todo el body por defecto */
+    body {
+        font-family: var(--font-body), sans-serif;
+    }
+}
+
+@layer components {
+
+    /* Si quieres usar Tailwind con @apply (corrección de tu código) */
+    .heading-handwritten {
+        font-family: var(--font-heading), cursive;
+        letter-spacing: 0.02em;
+    }
+}
