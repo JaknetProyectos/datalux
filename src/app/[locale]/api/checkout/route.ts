@@ -10,7 +10,7 @@ const SUPPORT_EMAIL = "ayuda@datalux.mx";
 const BRAND_NAME = "Datalux";
 const BRAND_URL = "datalux.mx";
 const BRAND_LOGO = "https://datalux.mx/title.png";
-const BRAND_BANNER = "https://datalux.mx/banner.png"; // Imagen para el banner inferior
+const BRAND_BANNER = "https://images.unsplash.com/vector-1761241351767-4327b53d6091?q=80&w=1861&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
 export async function POST(req: Request) {
   try {
@@ -114,45 +114,45 @@ function renderReceiptTemplate({
   // Paletas tipográficas y de color ajustadas a cliente (Violeta) y negocio (Amarillo)
   const theme = isBusiness
     ? {
-        // MODO NEGOCIO (AMARILLO VIBRANTE)
-        bgBody: "#FFC312",
-        bgContainer: "#ffffff",
-        bgHeader: "#ffffff",
-        bgCard: "#fffdeb",
-        bgTicket: "#ffffff",
-        bgMeta: "#fffdeb",
-        border: "#fde047",
-        borderSubtle: "#fef08a",
-        textTitle: "#18181b",
-        textSubtitle: "#52525b",
-        textLabel: "#a16207",
-        textValue: "#18181b",
-        textSecondary: "#71717a",
-        textAmount: "#18181b",
-        shadow: "0 10px 25px -5px rgba(255, 195, 18, 0.3)",
-        badgeBg: "#000000",
-        badgeText: "#FFC312",
-      }
+      // MODO NEGOCIO (AMARILLO VIBRANTE)
+      bgBody: "#FFC312",
+      bgContainer: "#ffffff",
+      bgHeader: "#ffffff",
+      bgCard: "#fffdeb",
+      bgTicket: "#ffffff",
+      bgMeta: "#fffdeb",
+      border: "#fde047",
+      borderSubtle: "#fef08a",
+      textTitle: "#18181b",
+      textSubtitle: "#52525b",
+      textLabel: "#a16207",
+      textValue: "#18181b",
+      textSecondary: "#71717a",
+      textAmount: "#18181b",
+      shadow: "0 10px 25px -5px rgba(255, 195, 18, 0.3)",
+      badgeBg: "#000000",
+      badgeText: "#FFC312",
+    }
     : {
-        // MODO CLIENTE (VIOLETA)
-        bgBody: "#5352ED",
-        bgContainer: "#ffffff",
-        bgHeader: "#ffffff",
-        bgCard: "#f5f3ff",
-        bgTicket: "#ffffff",
-        bgMeta: "#f5f3ff",
-        border: "#ede9fe",
-        borderSubtle: "#ddd6fe",
-        textTitle: "#1e1b4b",
-        textSubtitle: "#4c1d95",
-        textLabel: "#5352ED",
-        textValue: "#18181b",
-        textSecondary: "#6d28d9",
-        textAmount: "#5352ED",
-        shadow: "0 10px 25px -5px rgba(83, 82, 237, 0.3)",
-        badgeBg: "#5352ED",
-        badgeText: "#ffffff",
-      };
+      // MODO CLIENTE (VIOLETA)
+      bgBody: "#5352ED",
+      bgContainer: "#ffffff",
+      bgHeader: "#ffffff",
+      bgCard: "#f5f3ff",
+      bgTicket: "#ffffff",
+      bgMeta: "#f5f3ff",
+      border: "#ede9fe",
+      borderSubtle: "#ddd6fe",
+      textTitle: "#1e1b4b",
+      textSubtitle: "#4c1d95",
+      textLabel: "#5352ED",
+      textValue: "#18181b",
+      textSecondary: "#6d28d9",
+      textAmount: "#5352ED",
+      shadow: "0 10px 25px -5px rgba(83, 82, 237, 0.3)",
+      badgeBg: "#5352ED",
+      badgeText: "#ffffff",
+    };
 
   return `
     <!DOCTYPE html>

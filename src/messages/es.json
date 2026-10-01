@@ -176,10 +176,23 @@
       },
       "address": {
         "label": "Ubicación",
-        "value": "Calz. Legaria 549, Col. 10 de abril, Del. Miguel Hidalgo, CDMX, C.P. 11250"
+        "value": "CALLE ALFONSO NAPOLES GANDARA #50, INT 401, PISO 4, COL. PEÑA BLANCA SANTA FE, CP. 01210, ALCALDÍA ALVARO OBREGÓN, CIUDAD DE MÉXICO"
       }
     },
     "form": {
+      "errors": {
+        "nombreRequired": "El nombre es obligatorio.",
+        "nombreMin": "El nombre debe tener al menos 2 caracteres.",
+        "nombreMax": "El nombre no puede exceder los 50 caracteres.",
+        "nombreInvalid": "El nombre solo debe contener letras y espacios.",
+        "emailRequired": "El correo electrónico es obligatorio.",
+        "emailInvalid": "Ingresa un correo electrónico válido.",
+        "phoneInvalid": "Ingresa un número de teléfono válido (mínimo 7 dígitos).",
+        "phoneMax": "El teléfono no puede exceder los 20 caracteres.",
+        "mensajeRequired": "El mensaje es obligatorio.",
+        "mensajeMin": "El mensaje debe tener al menos 10 caracteres.",
+        "mensajeMax": "El mensaje no puede exceder los 1000 caracteres."
+      },
       "placeholders": {
         "name": "Nombre completo",
         "email": "Correo electrónico",
@@ -206,10 +219,10 @@
       "title": "Contacto y Oficinas",
       "phoneLabel": "Atención Telefónica",
       "addressLabel": "Ubicación Física",
-      "addressLine1": "Calz. Legaria 549,",
-      "addressLine2": "Col. 10 de abril,",
-      "addressLine3": "Del. Miguel Hidalgo,",
-      "addressLine4": "CDMX, C.P. 11250",
+      "addressLine1": "CALLE ALFONSO NAPOLES GANDARA #50",
+      "addressLine2": "INT 401, PISO 4, COL. PEÑA BLANCA SANTA FE",
+      "addressLine3": "CP. 01210, ALCALDÍA ALVARO OBREGÓN",
+      "addressLine4": "CIUDAD DE MÉXICO",
       "emailLabel": "Correo de Contacto"
     },
     "brand": {
